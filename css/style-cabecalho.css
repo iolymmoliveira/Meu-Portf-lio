@@ -1,0 +1,88 @@
+/*Configurações Iniciais para Facilitar a chamada das Fontes e Reset da Página*/
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(../fonts/Roboto-Thin.ttf);
+}
+
+:root {
+  --font-primary: "Roboto-Bold", sans-serif;
+  --font-secondary: "Roboto-Regular", sans-serif;
+  --font-tertiary: "Roboto-Thin", sans-serif;
+}
+
+:root {
+  --color1: rgb(255, 255, 255);
+  --color2: rgb(5, 10, 38);
+  --color3: rgb(231, 0, 76);
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cabecalho-container {
+  background-color: var(--color2);
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cabecalho-logo {
+  display: flex;
+  height: 40%;
+  width: 30%;
+  padding-left: 65px;
+}
+
+.cabecalho-redes-sociais {
+  display: flex; 
+  height: 70%;
+  width: 70%;
+}
+
+.lista-redes-sociais {
+  width: 85%;
+}
+
+.item-lista {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.icone-redes-sociais {
+  display: flex;
+  height: 50px; 
+  padding-left: 8px;
+  cursor: pointer;
+}
+
+.icone-redes-sociais:hover {
+  transform: scale(125%);
+}
+
+.icone {
+  
+}
+
+.icone:hover {
+  -webkit-filter: invert(55%);
+}
+
+

@@ -1,0 +1,12 @@
+.footer {
+  background: var(--color2);
+  height: 60px;
+  display: flex;
+  color: var(--color1);
+}
+
+.conteudo-footer {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
