@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="../css/style-main.css">
   <link rel="stylesheet" href="../css/style-skills.css">
   <link rel="stylesheet" href="../css/style-works.css">
+  <link rel="stylesheet" href="../css/style-contact.css">
   <link rel="stylesheet" href="../css/style-footer.css">
   <title class="title"> Ioly Oliveira | FrontEnd Developer</title>
 </head>
@@ -41,8 +42,8 @@
   <section class="main">
     <div class="descricao-pessoal">
       <h1 class="h1-descricao-pessoal h1-animation"> Ioly Oliveira</h1>
-      <h2 class="h2-descricao-pessoal">Desenvolvedora Front end.</h2>
-      <p class="p-descricao-pessoal"> Estudante de Análise e Desenvolvimento de Sistemas.</p>
+      <h2 class="h2">Desenvolvedora Front end.</h2>
+      <p class="p"> Estudante de Análise e Desenvolvimento de Sistemas.</p>
     </div>
     <div class="imagem-pessoal">
       <img src="../images/FotoPerfil_redondo.png" alt="imagem de Ioly Oliveira">
@@ -51,45 +52,71 @@
 
   <!--Seção Skills-->
   <section class="skills">
-    <h1 class="h1">Conhecimentos</h1>
-    <ul class="lista-skills">
-      <li class="itens-skills">
-        <img src="../images/html5.png" alt="icone html5">
-      </li>
-      <li>
-        <img src="../images/css3.png" alt="icone css3">
-      </li>
-      <li>
-        <img src="../images/js.png" alt="icone javascript">
-      </li>
-    </ul>
+    <div class="title">
+      <h1>Conhecimentos</h1>
+    </div>
+    <div class="container">
+      <div>
+        <p class="p">*passe o cursor do mouse no card para ler*</p>
+      </div>
+      <div>
+        <ul class="lista-skills">
+          <li class="itens-skills">
+            <img src="../images/html5.png" alt="icone html5">
+          </li>
+          <li>
+            <img src="../images/css3.png" alt="icone css3">
+          </li>
+          <li>
+            <img src="../images/js.png" alt="icone javascript">
+          </li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <!--Seção para mostrar Trabalhos-->
   <section class="works">
-    <div>
-      <h1>Logo logo...</h1>
-      <p>Enquanto desenvolvo o projeto tome uma xícara de café e aguarde um pouco.</p>
+    <div class="title">
+      <h1>Meus Projetos</h1>
     </div>
-    <div>
-      <h1>Logo logo...</h1>
-      <p>Enquanto desenvolvo o projeto tome uma xícara de café e aguarde um pouco.</p>
-    </div>
-    <div>
-      <h1>Logo logo...</h1>
-      <p>Enquanto desenvolvo o projeto tome uma xícara de café e aguarde um pouco.</p>
+    <div class="container">
+      <div>
+        <h1 class="h2">Logo logo...</h1>
+        <p class="p">Enquanto desenvolvo o projeto tome uma xícara de café e aguarde um pouco.</p>
+      </div>
+      <div>
+        <h1 class="h2">Logo logo...</h1>
+        <p class="p">Enquanto desenvolvo o projeto tome uma xícara de café e aguarde um pouco.</p>
+      </div>
+      <div>
+        <h1 class="h2">Logo logo...</h1>
+        <p class="p">Enquanto desenvolvo o projeto tome uma xícara de café e aguarde um pouco.</p>
+      </div>
     </div>
   </section>
 
   <!--Seção para Contato-->
-  <section class="contat">
-    <form action="" method="post">
-      <input type="text" placeholder="Name" required>
-      <input type="email" placeholder="E-mail" required>
-      <input type="text" placeholder="Assunto" required>
-      <textarea cols="30" rows="10" placeholder="Escreva aqui..." required></textarea>
-      <button type="submit">Enviar</button>
-    </form>
+  <section class="contact">
+    <div class="title">
+      <h1>Entre em Contato</h1>
+    </div>
+    <div class="form">
+      <form method="post">
+        <div class="form-nome-email">
+          <label>Nome</label>
+          <input type="text" placeholder="Nome" required>
+          <label>E-mail</label>
+          <input type="email" placeholder="E-mail" required>
+        </div>
+        <div class="form-message">
+          <label>Mensagem</label>
+          <textarea cols="30" rows="10" placeholder="Escreva aqui..." required></textarea>
+          <!-- <button class="btn-submit" type="submit">Enviar</button> -->
+          <input type="submit" value="Enviar" class="btn-submit">
+        </div>
+      </form>
+    </div>
   </section>
 
   <!--Seção para o Rodapé-->
